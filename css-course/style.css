@@ -37,7 +37,9 @@ a:active{
     margin: auto;
     
 }
-
+.crl{
+    clear: both;
+}
 .box-1 h1{
     font-family: fantasy;
     font-weight: 800;
@@ -76,6 +78,7 @@ a:active{
 
 .my-form label{
     display: block;
+    padding: 5px 0;
 }
 .my-form input[type='text'], .my-form textarea{
     padding: 8px;
@@ -93,4 +96,44 @@ a:active{
 .button:hover{
     background-color: aqua;
     color: burlywood;
+}
+
+.block{
+    float: left;
+    width: 33.3%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+
+#main-block{
+    float: left;
+    width: 70%;
+}
+
+#sidebar{
+    float: left;
+    width: 30%;
+    background-color: chocolate;
+    color: cornsilk;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.fix-me{
+    position: fixed;
+    top:400px;
+    
+}
+
+.my-list li:nth-child(2){
+    background: crimson;
+}
+
+.my-list li:last-child{
+    background-color: darkblue;
+
+}
+
+.my-list li:nth-child(4){
+    background-color: darkgrey;
 }
